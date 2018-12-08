@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@drawable/hundreddiamond">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="40sp"
+            android:text="Di-Hundred"
+            android:layout_gravity="center"
+            android:fontFamily="serif-monospace"
+            android:textColor="#42f4df"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="218dp"
+            android:src="@drawable/diamondhundreds"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Our Top Selling Item!"
+            android:textSize="30sp"
+            android:layout_gravity="center"
+            android:textColor="#04c8f4"
+            android:paddingTop="50dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="$ 200"
+            android:textSize="25sp"
+            android:textColor="#04c8f4"
+            android:layout_gravity="center"/>
+
+        <ImageView
+            android:layout_width="258dp"
+            android:layout_height="170dp"
+            android:src="@drawable/pumadiamond"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+
+
+
+
+</ScrollView>
